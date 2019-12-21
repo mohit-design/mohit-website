@@ -1,0 +1,261 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	/*------- Banner Section Starts -------*/
+
+.name-designation-center { width: 100%; }
+.name-designation-center > h1 { font-size: 5rem; }
+
+	/*------- Banner Section Ends -------*/
+
+	/*------- About Me Section Starts -------*/
+
+.section-heading > h2,
+.about-information > h2 { font-size: 2.7rem; }
+.about-information > p { text-align: justify; }
+.table-about-info > tbody > tr > td:first-child { width: 30%; }
+.table-about-info > tbody > tr > td:last-child { width: 70%; }
+.tools-info > h3 > span { display: inline-block; }
+.web-design-tools-info,
+.graphic-design-tools-info { margin-bottom: 30px; }
+
+	/*------- About Me Section Ends -------*/
+
+	/*------- Services Section Starts -------*/
+
+.panel-cafe-menu-service,
+.panel-flyer-service { margin-bottom: 30px; }
+
+	/*------- Services Section Ends -------*/
+
+	/*------- Portfolio Section Starts -------*/
+
+.portfolio-listing { display: block; margin-bottom: 10px; }
+.portfolio-listing > li { margin-bottom: 20px; }
+.fig-portfolio-one,
+.fig-portfolio-five,
+.fig-portfolio-six,
+.fig-portfolio-sixteen { margin-bottom: 30px; }
+.fig-portfolio-twenty-two { margin-bottom: 0; }
+
+	/*------- Portfolio Section Ends -------*/
+
+	/*------- Pricing Section Starts -------*/
+
+.panel-res-cafe-pricing { margin-bottom: 30px; }
+
+	/*------- Pricing Section Ends -------*/
+
+	/*------- Contact Us Section Starts -------*/
+
+.address-information, 
+.mobile-information, 
+.email-information { padding: 30px 15px; }
+.address-information > p,
+.mobile-information > p,
+.email-information > p { font-size: 1.6rem; }
+
+	/*------- Contact Us Section Ends -------*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	/*------- Banner Section Starts -------*/
+
+.bg-banner { height: 50vh; }
+.name-designation-center { width: 100%; }
+.name-designation-center > h1 { font-size: 4rem; }
+.name-designation-center > p { font-size: 1.8rem; }
+
+	/*------- Banner Section Ends -------*/
+
+	/*------- About Me Section Starts -------*/
+
+.section-heading > h2 { font-size: 2.4rem; }
+.about-information > h2 { font-size: 2.4rem; }
+.about-information > p { text-align: justify; }
+.table-about-info { margin-bottom: 0; }
+.table-about-info-tab { margin-bottom: 30px; }
+.table-about-info > tbody > tr > td:first-child { padding: 0 0 5px 0; width: 45%; }
+.table-about-info > tbody > tr > td:last-child { padding: 0 0 5px 0; width: 55%; }
+.web-design-tools-info,
+.graphic-design-tools-info { margin-bottom: 30px; }
+.uiux-design-tools-info > h3 > span { display: inline-block; }
+
+	/*------- About Me Section Ends -------*/
+
+	/*------- Services Section Starts -------*/
+
+.panel-cafe-menu-service,
+.panel-flyer-service { margin-bottom: 30px; }
+
+	/*------- Services Section Ends -------*/
+
+	/*------- Portfolio Section Starts -------*/
+
+.portfolio-listing { display: block; margin-bottom: 10px; }
+.portfolio-listing > li { margin-bottom: 20px; }
+.fig-portfolio-one,
+.fig-portfolio-four,
+.fig-portfolio-twelve,
+.fig-portfolio-sixteen,
+.fig-portfolio-twenty-four { margin-bottom: 30px; }
+.fig-portfolio-twenty-two,
+.fig-portfolio-five { margin-bottom: 0; }
+
+	/*------- Portfolio Section Ends -------*/
+
+	/*------- Pricing Section Starts -------*/
+
+.panel-pricing { min-height: 417px; padding: 30px 10px; }
+.panel-logo-pricing,
+.panel-card-pricing,
+.panel-web-pricing,
+.panel-res-cafe-pricing { margin-bottom: 30px; }
+.panel-pricing > h3 { font-size: 2rem; }
+
+	/*------- Pricing Section Ends -------*/
+
+	/*------- Contact Us Section Starts -------*/
+
+.email-information { min-height: 0; }
+.address-information,
+.mobile-information { margin-bottom: 30px; }
+.address-information, 
+.mobile-information, 
+.email-information { padding: 30px 15px; }
+
+	/*------- Contact Us Section Ends -------*/
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	/*------- Body and Blur Section CSS Starts -------*/
+
+body.overflow-hidden { overflow-y: hidden; }
+.bg-blur { background-color: #000000a7; bottom: 0; display: none; height: 100%; left: 0; right: 0; position: fixed; top: 0; width: 100%; z-index: 1; }
+.bg-blur.active { display: block; }
+
+	/*------- Body and Blur Section CSS Ends -------*/
+
+	/*------- Mobile Hamburger Menu Section Starts -------*/
+
+.hamburger-menu { left: 0; position: absolute; top:  0; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; z-index: 2; }
+.hamburger-menu.active { left: 200px; }
+.burger-menu { background-color: #ec9f31; border-radius: 0 0 14px 0; -webkit-border-radius: 0 0 14px 0; -moz-border-radius: 0 0 14px 0; -ms-border-radius: 0 0 14px 0; -o-border-radius: 0 0 14px 0; cursor: pointer; height: 50px; width: 50px; position: relative; }
+.burger-menu span { position: absolute; height: 2px; width: 25px; background-color: #fff; top: 50%; left: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+.burger-menu span:before,
+.burger-menu span:after { content: ""; background-color: #fff; height: 2px; width: 25px; position: absolute; top: 10px; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+.burger-menu span:before { top: -10px; }
+
+	/*------- Mobile Hamburger Menu Section Ends -------*/
+	
+	/*------- Sidebar Section Starts -------*/
+
+.fixed-sidebar { transform: translateX(-100%); -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -ms-transform: translateX(-100%); -o-transform: translateX(-100%); transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; z-index: 2; }
+.fixed-sidebar.active { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); }
+.menu-listing > li { padding: 5px 25px; }
+
+	/*------- Sidebar Section Ends -------*/
+
+	/*------- Wrapper Section Starts -------*/
+
+.wrapper { margin-left: 0; }
+
+	/*------- Wrapper Section Ends -------*/
+
+	/*------- Banner Section Starts -------*/
+
+.name-designation-center { width: 100%; }
+.name-designation-center > h1 { font-size: 4rem; }
+
+	/*------- Banner Section Ends -------*/
+
+	/*------- About Me Section Starts -------*/
+
+.bg-about,
+.bg-services,
+.bg-portfolio,
+.bg-pricing,
+.bg-contact { padding: 15px 15px 0; }
+.section-heading > h2 { font-size: 2.4rem; margin-bottom: 15px; }
+.img-person { margin-bottom: 15px; }
+.about-information > h2 { font-size: 2.4rem; margin-bottom: 15px; }
+.about-information > p { margin-bottom: 15px; text-align: justify; }
+.mobile-table-responsive { display: none; }
+.tools-info > h3 { font-size: 2rem; }
+.tools-info > h3 > span { display: inline-block; }
+.web-design-listing > li { padding-bottom: 5px; }
+.web-design-listing > li:last-child { padding-bottom: 15px; }
+.uiux-design-listing > li:last-child { padding-bottom: 0; }
+
+	/*------- About Me Section Ends -------*/
+
+	/*------- Services Section Starts -------*/
+
+.panel-services { margin-bottom: 15px; }
+.panel-banner-service { margin-bottom: 0; }
+
+	/*------- Services Section Ends -------*/
+
+	/*------- Portfolio Section Starts -------*/
+
+.portfolio-listing { display: block; margin-bottom: 15px; }
+.portfolio-listing > li { margin-bottom: 15px; }
+.portfolio-listing > li:last-child { margin-bottom: 0; }
+.portfolio-listing > li:hover,
+.portfolio-listing > li.active { box-shadow: inset 0 -46px 0 0 #ec9f31; -webkit-box-shadow: inset 0 -46px 0 0 #ec9f31; -moz-box-shadow: inset 0 -46px 0 0 #ec9f31; -ms-box-shadow: inset 0 -46px 0 0 #ec9f31; -o-box-shadow: inset 0 -46px 0 0 #ec9f31; }
+.fig-portfolio { margin-bottom: 15px; }
+.fig-portfolio-seven,
+.fig-portfolio-nine,
+.fig-portfolio-fourteen,
+.fig-portfolio-eighteen,
+.fig-portfolio-nineteen,
+.fig-portfolio-twenty-one,
+.fig-portfolio-twenty-three { margin-bottom: 0; }
+	
+	/*------- Portfolio Section Ends -------*/
+
+	/*------- Pricing Section Starts -------*/
+
+.panel-pricing { margin-bottom: 15px; }
+.panel-banner-pricing { margin-bottom: 0; }
+
+	/*------- Pricing Section Ends -------*/
+
+	/*------- Contact Us Section Starts -------*/
+
+.address-information, 
+.mobile-information, 
+.email-information { margin-bottom: 15px; min-height: auto; }
+.email-information { margin-bottom: 45px; }
+.form-element { margin-bottom: 40px; }
+.btn-submit { margin-bottom: 15px; width: 100%; }
+
+	/*------- Contact Us Section Ends -------*/
+
+	/*------- Copyright Section Starts -------*/
+
+.copyright > p { font-size: 1.4rem; }
+
+	/*------- Copyright Section Ends -------*/
+
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+
+	/*------- Sidebar Section Starts -------*/
+
+.sidebar-logo { padding: 15px; }
+.sidebar-logo > img { width: 100px; }
+.menu-listing > li { padding: 0 15px; }
+.menu-listing > li > a { font-size: 1.4rem; }
+.menu-listing > li > a:after { display: none; }
+.sidebar-social { bottom: 15px; }
+.sidebar-social-listing > li > a { height: 30px; width: 30px; }
+.sidebar-social-listing > li > a > i { font-size: 1.2rem; line-height: 30px; }
+
+	/*------- Sidebar Section Ends -------*/
+
+}
