@@ -9,6 +9,8 @@
 
 /*------- Common CSS Starts -------*/
 
+.section-heading > h4 { border-bottom: 2px solid #ec9f31; color: #ec9f31; display: inline-block; font: 1.8rem/1.42857143 "Saira-Regular"; margin-bottom: 5px; padding-bottom: 5px; text-transform: uppercase; }
+.section-heading > h2 { color: #fff; font: 3rem/1.42857143 "Saira-SemiBold"; margin-bottom: 30px; text-transform: uppercase; }
 p { color: #fff; font: 1.8rem/1.42857143 "Saira-Light"; }
 .img-auto { margin: 0 auto; }
 .btn { border: 0; font: 1.8rem/1.3333333 "Saira-Light"; letter-spacing: 1px; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
@@ -133,9 +135,12 @@ a:focus { text-decoration: none; transition: 0.5s linear; -webkit-transition: 0.
 .fig-portfolio-nine,
 .fig-portfolio-ten,
 .fig-portfolio-eleven,
+.fig-portfolio-twelve,
 .fig-portfolio-thirteen,
 .fig-portfolio-fifteen,
+.fig-portfolio-nineteen,
 .fig-portfolio-twenty-two,
+.fig-portfolio-twenty-four,
 .fig-portfolio-twenty-five,
 .fig-portfolio-twenty-six { margin-bottom: 30px; }
 .img-portfolio { transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; width: 100%; }
@@ -166,38 +171,14 @@ a:focus { text-decoration: none; transition: 0.5s linear; -webkit-transition: 0.
 	/*------- Contact Us Section Starts -------*/
 
 .bg-contact { padding: 30px; }
-.section-heading > h4 { border-bottom: 2px solid #ec9f31; color: #ec9f31; display: inline-block; font: 1.8rem/1.42857143 "Saira-Regular"; margin-bottom: 5px; padding-bottom: 5px; text-transform: uppercase; }
-.section-heading > h2 { color: #fff; font: 3rem/1.42857143 "Saira-SemiBold"; margin-bottom: 30px; text-transform: uppercase; }
 .address-information,
 .mobile-information,
-.email-information { background-color: #222; box-shadow: inset 0 10px 0 0 #ec9f31; -webkit-box-shadow: inset 0 10px 0 0 #ec9f31; -moz-box-shadow: inset 0 10px 0 0 #ec9f31; -ms-box-shadow: inset 0 10px 0 0 #ec9f31; -o-box-shadow: inset 0 10px 0 0 #ec9f31; margin-bottom: 60px; min-height: 240px; padding: 30px; text-align: center; }
+.email-information { background-color: #222; box-shadow: inset 0 10px 0 0 #ec9f31; -webkit-box-shadow: inset 0 10px 0 0 #ec9f31; -moz-box-shadow: inset 0 10px 0 0 #ec9f31; -ms-box-shadow: inset 0 10px 0 0 #ec9f31; -o-box-shadow: inset 0 10px 0 0 #ec9f31; min-height: 240px; padding: 30px; text-align: center; }
 .address-information > i,
 .mobile-information > i,
 .email-information > i { align-items: center; background-color: #ec9f31; border-radius: 60px / 120px; -webkit-border-radius: 60px / 120px; -moz-border-radius: 60px / 120px; -ms-border-radius: 60px / 120px; -o-border-radius: 60px / 120px; color: #fff; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; font-size: 2.4rem; height: 50px; justify-content: center; margin: 0 auto 30px; width: 50px; }
 .mobile-information > p > a,
 .email-information > p > a { color: #fff; }
-
-	/*------- Animated Label Textbox CSS Starts -------*/
-
-.form-element { margin-bottom: 60px; position: relative; }
-.form-textarea-element { margin-bottom: 30px; }
-.fields { color: #fff; font: 1.8rem/1.42857143 "Saira-Regular"; left: 0; margin-bottom: 0; pointer-events: none; position: absolute; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transition: all 0.7s ease-in-out; -webkit-transition: all 0.7s ease-in-out; -moz-transition: all 0.7s ease-in-out; -ms-transition: all 0.7s ease-in-out; -o-transition: all 0.7s ease-in-out; }
-.fields-textarea { top: 35%; transform: translateY(-100%); }
-.form-control-element { background-color: transparent; border: 0; border-bottom: 2px solid #fff; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; caret-color: #fff; color: #fff; font: 1.6rem/1.42857143 "Saira-Regular"; height: 40px; letter-spacing: 1px; padding: 6px 0; }
-.form-control-element:focus { box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; border-color: #fff; outline: 0; }
-.form-control-element:focus ~ .input-border > .fields,
-.form-control-element:valid ~ .input-border > .fields { color: #fff; left: 0; top: 0; transform: translateY(-100%); -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); }
-.input-border:after { background-color: #ec9f31; bottom: 0; content: ""; height: 2px; left: 0; position: absolute; transform: scale(0,0); -webkit-transform: scale(0,0); -moz-transform: scale(0,0); -ms-transform: scale(0,0); -o-transform: scale(0,0); transition: all 1s ease-in-out; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; width: 100%; }
-.form-control-element:focus + .input-border:after { transform: scale(1,1); }
-
-	/*------- Animated Label Textbox CSS Ends -------*/
-
-textarea.form-control-element { height: 100px; resize: none; }
-.btn-submit { background-color: #000; box-shadow: inset 0 0 0 0 #ec9f31; -webkit-box-shadow: inset 0 0 0 0 #ec9f31; -moz-box-shadow: inset 0 0 0 0 #ec9f31; -ms-box-shadow: inset 0 0 0 0 #ec9f31; -o-box-shadow: inset 0 0 0 0 #ec9f31; color: #fff; }
-.btn-submit:hover,
-.btn-submit:active:hover { box-shadow: inset 0 44px 0 0 #ec9f31; -webkit-box-shadow: inset 0 44px 0 0 #ec9f31; -moz-box-shadow: inset 0 44px 0 0 #ec9f31; -ms-box-shadow: inset 0 44px 0 0 #ec9f31; -o-box-shadow: inset 0 44px 0 0 #ec9f31; }
-.btn-submit:focus,
-.btn-submit:active:focus { box-shadow: inset 0 0 0 0 #ec9f31; -webkit-box-shadow: inset 0 0 0 0 #ec9f31; -moz-box-shadow: inset 0 0 0 0 #ec9f31; -ms-box-shadow: inset 0 0 0 0 #ec9f31; -o-box-shadow: inset 0 0 0 0 #ec9f31; }
 
 	/*------- Contact Us Section Ends -------*/
 

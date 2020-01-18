@@ -34,7 +34,8 @@
 .fig-portfolio-one,
 .fig-portfolio-five,
 .fig-portfolio-sixteen { margin-bottom: 30px; }
-.fig-portfolio-twenty-two { margin-bottom: 0; }
+.fig-portfolio-twenty-two,
+.fig-portfolio-nineteen { margin-bottom: 0; }
 
 	/*------- Portfolio Section Ends -------*/
 
@@ -48,7 +49,7 @@
 
 .address-information, 
 .mobile-information, 
-.email-information { padding: 30px 15px; }
+.email-information { min-height: 228px; padding: 30px 15px; }
 .address-information > p,
 .mobile-information > p,
 .email-information > p { font-size: 1.6rem; }
@@ -95,11 +96,10 @@
 .portfolio-listing { display: block; margin-bottom: 10px; }
 .portfolio-listing > li { margin-bottom: 20px; }
 .fig-portfolio-one,
-.fig-portfolio-twelve,
-.fig-portfolio-sixteen,
-.fig-portfolio-twenty-four { margin-bottom: 30px; }
+.fig-portfolio-sixteen { margin-bottom: 30px; }
 .fig-portfolio-twenty-two,
-.fig-portfolio-five { margin-bottom: 0; }
+.fig-portfolio-five,
+.fig-portfolio-nineteen { margin-bottom: 0; }
 
 	/*------- Portfolio Section Ends -------*/
 
@@ -208,10 +208,10 @@ body.overflow-hidden { overflow-y: hidden; }
 .fig-portfolio-seven,
 .fig-portfolio-fourteen,
 .fig-portfolio-eighteen,
-.fig-portfolio-nineteen,
 .fig-portfolio-twenty-one,
 .fig-portfolio-twenty-three,
-.fig-portfolio-twenty-seven { margin-bottom: 0; }
+.fig-portfolio-twenty-seven,
+.fig-portfolio-twenty-eight { margin-bottom: 0; }
 	
 	/*------- Portfolio Section Ends -------*/
 
@@ -227,7 +227,6 @@ body.overflow-hidden { overflow-y: hidden; }
 .address-information, 
 .mobile-information, 
 .email-information { margin-bottom: 15px; min-height: auto; }
-.email-information { margin-bottom: 45px; }
 .form-element { margin-bottom: 40px; }
 .btn-submit { margin-bottom: 15px; width: 100%; }
 
