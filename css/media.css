@@ -33,7 +33,9 @@
 .portfolio-listing > li { margin-bottom: 20px; }
 .fig-portfolio-one,
 .fig-portfolio-five,
-.fig-portfolio-sixteen { margin-bottom: 30px; }
+.fig-portfolio-sixteen,
+.fig-portfolio-thirty,
+.fig-portfolio-thirty-one { margin-bottom: 30px; }
 .fig-portfolio-twenty-two,
 .fig-portfolio-nineteen { margin-bottom: 0; }
 
@@ -96,7 +98,9 @@
 .portfolio-listing { display: block; margin-bottom: 10px; }
 .portfolio-listing > li { margin-bottom: 20px; }
 .fig-portfolio-one,
-.fig-portfolio-sixteen { margin-bottom: 30px; }
+.fig-portfolio-sixteen,
+.fig-portfolio-thirty,
+.fig-portfolio-thirty-one { margin-bottom: 30px; }
 .fig-portfolio-twenty-two,
 .fig-portfolio-five,
 .fig-portfolio-nineteen { margin-bottom: 0; }
@@ -207,11 +211,11 @@ body.overflow-hidden { overflow-y: hidden; }
 .fig-portfolio { margin-bottom: 15px; }
 .fig-portfolio-seven,
 .fig-portfolio-fourteen,
-.fig-portfolio-eighteen,
 .fig-portfolio-twenty-one,
 .fig-portfolio-twenty-three,
 .fig-portfolio-twenty-seven,
-.fig-portfolio-twenty-eight { margin-bottom: 0; }
+.fig-portfolio-twenty-eight,
+.fig-portfolio-thirty-two { margin-bottom: 0; }
 	
 	/*------- Portfolio Section Ends -------*/
 
