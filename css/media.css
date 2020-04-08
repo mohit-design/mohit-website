@@ -22,7 +22,6 @@
 
 	/*------- Services Section Starts -------*/
 
-.panel-cafe-menu-service,
 .panel-flyer-service { margin-bottom: 30px; }
 
 	/*------- Services Section Ends -------*/
@@ -88,7 +87,6 @@
 
 	/*------- Services Section Starts -------*/
 
-.panel-cafe-menu-service,
 .panel-flyer-service { margin-bottom: 30px; }
 
 	/*------- Services Section Ends -------*/
@@ -197,7 +195,7 @@ body.overflow-hidden { overflow-y: hidden; }
 	/*------- Services Section Starts -------*/
 
 .panel-services { margin-bottom: 15px; }
-.panel-banner-service { margin-bottom: 0; }
+.panel-letterhead-service { margin-bottom: 0; }
 
 	/*------- Services Section Ends -------*/
 
