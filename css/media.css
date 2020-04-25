@@ -36,7 +36,6 @@
 .fig-portfolio-twenty-eight,
 .fig-portfolio-thirty,
 .fig-portfolio-thirty-one { margin-bottom: 30px; }
-.fig-portfolio-twenty-two { margin-bottom: 0; }
 
 	/*------- Portfolio Section Ends -------*/
 
@@ -100,7 +99,6 @@
 .fig-portfolio-twenty-eight,
 .fig-portfolio-thirty,
 .fig-portfolio-thirty-one { margin-bottom: 30px; }
-.fig-portfolio-twenty-two,
 .fig-portfolio-five { margin-bottom: 0; }
 
 	/*------- Portfolio Section Ends -------*/
@@ -209,11 +207,11 @@ body.overflow-hidden { overflow-y: hidden; }
 .fig-portfolio { margin-bottom: 15px; }
 .fig-portfolio-seven,
 .fig-portfolio-twenty-one,
-.fig-portfolio-twenty-three,
 .fig-portfolio-twenty-seven,
 .fig-portfolio-thirty-two,
 .fig-portfolio-thirty-three,
-.fig-portfolio-thirty-four { margin-bottom: 0; }
+.fig-portfolio-thirty-four,
+.fig-portfolio-thirty-seven { margin-bottom: 0; }
 	
 	/*------- Portfolio Section Ends -------*/
 

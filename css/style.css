@@ -146,9 +146,12 @@ a:focus { text-decoration: none; transition: 0.5s linear; -webkit-transition: 0.
 .fig-portfolio-eighteen,
 .fig-portfolio-nineteen,
 .fig-portfolio-twenty-two,
+.fig-portfolio-twenty-three,
 .fig-portfolio-twenty-four,
 .fig-portfolio-twenty-five,
-.fig-portfolio-twenty-six { margin-bottom: 30px; }
+.fig-portfolio-twenty-six,
+.fig-portfolio-thirty-five,
+.fig-portfolio-thirty-six { margin-bottom: 30px; }
 .img-portfolio { transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; width: 100%; }
 .project-info { background: #222222; bottom: 0; padding: 10px; position: absolute; transform: translateY(100%); -webkit-transform: translateY(100%); -moz-transform: translateY(100%); -ms-transform: translateY(100%); -o-transform: translateY(100%); transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; width: 100%; }
 .project-info > h3 { color: #ec9f31; font: 2.4rem/1.42857143 "Saira-Medium"; margin-bottom: 5px; }
