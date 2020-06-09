@@ -87,7 +87,7 @@ a:focus { text-decoration: none; transition: 0.5s linear; -webkit-transition: 0.
 .img-person { border: 7px solid #222; border-radius: 4%; -webkit-border-radius: 4%; -moz-border-radius: 4%; -ms-border-radius: 4%; -o-border-radius: 4%; margin-bottom: 30px; width: 100%; }
 .about-information > h2 { color: #fff; font: 3rem/1.42857143 "Saira-Medium"; margin-bottom: 30px; }
 .about-information > h2 > span { color: #ec9f31; }
-.about-information > p { margin-bottom: 30px; }
+.about-information > p { line-height: 1.7; margin-bottom: 30px; }
 .about-information > p > span { color: #ec9f31; }
 .table-about-info { margin-bottom: 30px; }
 .table-about-info > tbody > tr > td { border-top: 0; padding: 8px 0; }
