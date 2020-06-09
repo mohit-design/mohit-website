@@ -136,27 +136,27 @@
 	/*------- Body and Blur Section CSS Starts -------*/
 
 body.overflow-hidden { overflow-y: hidden; }
-.bg-blur { background-color: #000000a7; bottom: 0; display: none; height: 100%; left: 0; right: 0; position: fixed; top: 0; width: 100%; z-index: 1; }
+.bg-blur { background-color: #000000a7; bottom: 0; display: none; height: 100%; left: 0; position: fixed; right: 0; top: 0; width: 100%; z-index: 1; }
 .bg-blur.active { display: block; }
 
 	/*------- Body and Blur Section CSS Ends -------*/
 
 	/*------- Mobile Hamburger Menu Section Starts -------*/
 
-.hamburger-menu { left: 0; position: absolute; top:  0; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; z-index: 2; }
+.hamburger-menu { left: 0; position: absolute; top: 0; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear;transition: 0.5s linear; z-index: 2; }
 .hamburger-menu.active { left: 200px; }
-.burger-menu { background-color: #ec9f31; border-radius: 0 0 14px 0; -webkit-border-radius: 0 0 14px 0; -moz-border-radius: 0 0 14px 0; -ms-border-radius: 0 0 14px 0; -o-border-radius: 0 0 14px 0; cursor: pointer; height: 50px; width: 50px; position: relative; }
-.burger-menu span { position: absolute; height: 2px; width: 25px; background-color: #fff; top: 50%; left: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+.burger-menu { background-color: #ec9f31; -webkit-border-radius: 0 0 14px 0; -moz-border-radius: 0 0 14px 0; -ms-border-radius: 0 0 14px 0; -o-border-radius: 0 0 14px 0; border-radius: 0 0 14px 0; cursor: pointer; height: 50px; position: relative; width: 50px; }
+.burger-menu span { background-color: #fff; height: 2px; left: 50%; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 25px; }
 .burger-menu span:before,
-.burger-menu span:after { content: ""; background-color: #fff; height: 2px; width: 25px; position: absolute; top: 10px; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+.burger-menu span:after { content: ""; background-color: #fff; height: 2px; position: absolute; top: 10px; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; width: 25px; }
 .burger-menu span:before { top: -10px; }
 
 	/*------- Mobile Hamburger Menu Section Ends -------*/
 	
 	/*------- Sidebar Section Starts -------*/
 
-.fixed-sidebar { transform: translateX(-100%); -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -ms-transform: translateX(-100%); -o-transform: translateX(-100%); transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; z-index: 2; }
-.fixed-sidebar.active { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); }
+.fixed-sidebar { -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -ms-transform: translateX(-100%); -o-transform: translateX(-100%); transform: translateX(-100%);  -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; z-index: 2; }
+.fixed-sidebar.active { -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); transform: translateX(0); }
 .menu-listing > li { padding: 5px 25px; }
 
 	/*------- Sidebar Section Ends -------*/
@@ -207,7 +207,7 @@ body.overflow-hidden { overflow-y: hidden; }
 .portfolio-listing > li { margin-bottom: 15px; }
 .portfolio-listing > li:last-child { margin-bottom: 0; }
 .portfolio-listing > li:hover,
-.portfolio-listing > li.active { box-shadow: inset 0 -46px 0 0 #ec9f31; -webkit-box-shadow: inset 0 -46px 0 0 #ec9f31; -moz-box-shadow: inset 0 -46px 0 0 #ec9f31; -ms-box-shadow: inset 0 -46px 0 0 #ec9f31; -o-box-shadow: inset 0 -46px 0 0 #ec9f31; }
+.portfolio-listing > li.active { -webkit-box-shadow: inset 0 -46px 0 0 #ec9f31; -moz-box-shadow: inset 0 -46px 0 0 #ec9f31; -ms-box-shadow: inset 0 -46px 0 0 #ec9f31; -o-box-shadow: inset 0 -46px 0 0 #ec9f31; box-shadow: inset 0 -46px 0 0 #ec9f31; }
 .fig-portfolio { margin-bottom: 15px; }
 .fig-portfolio-seven,
 .fig-portfolio-twenty-one,
