@@ -7,20 +7,6 @@
 
 /*------- Font Family Ends -------*/
 
-/*------- Common CSS Starts -------*/
-
-.section-heading > h4 { border-bottom: 2px solid #ec9f31; color: #ec9f31; display: inline-block; font: 1.8rem/1.42857143 "Saira-Regular"; margin-bottom: 5px; padding-bottom: 5px; text-transform: uppercase; }
-.section-heading > h2 { color: #fff; font: 3rem/1.42857143 "Saira-SemiBold"; margin-bottom: 30px; text-transform: uppercase; }
-p { color: #fff; font: 1.8rem/1.42857143 "Saira-Light"; }
-.img-auto { margin: 0 auto; }
-.btn { border: 0; font: 1.8rem/1.3333333 "Saira-Light"; letter-spacing: 1px; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; }
-.btn:hover,
-.btn:active:hover { color: #fff; }
-.btn:focus,
-.btn:active:focus { color: #fff; outline: 0; }
-
-/*------- Common CSS Ends -------*/
-
 /*------- Reset CSS Starts -------*/
 
 html { -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
@@ -39,6 +25,20 @@ a:hover,
 a:focus { text-decoration: none; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; }
 
 /*------- Reset CSS Ends -------*/
+
+/*------- Common CSS Starts -------*/
+
+.section-heading > h4 { border-bottom: 2px solid #ec9f31; color: #ec9f31; display: inline-block; font: 1.8rem/1.42857143 "Saira-Regular"; margin-bottom: 5px; padding-bottom: 5px; text-transform: uppercase; }
+.section-heading > h2 { color: #fff; font: 3rem/1.42857143 "Saira-SemiBold"; margin-bottom: 30px; text-transform: uppercase; }
+p { color: #fff; font: 1.8rem/1.42857143 "Saira-Light"; }
+.img-auto { margin: 0 auto; }
+.btn { border: 0; font: 1.8rem/1.3333333 "Saira-Light"; letter-spacing: 1px; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; }
+.btn:hover,
+.btn:active:hover { color: #fff; }
+.btn:focus,
+.btn:active:focus { color: #fff; outline: 0; }
+
+/*------- Common CSS Ends -------*/
 
 /*------- Scroll Progressbar Section Starts -------*/
 
@@ -136,14 +136,8 @@ a:focus { text-decoration: none; -webkit-transition: 0.5s linear; -moz-transitio
 .fig-portfolio-six,
 .fig-portfolio-eight,
 .fig-portfolio-nine,
-.fig-portfolio-ten,
-.fig-portfolio-eleven,
 .fig-portfolio-twelve,
 .fig-portfolio-thirteen,
-.fig-portfolio-fifteen,
-.fig-portfolio-sixteen,
-.fig-portfolio-seventeen,
-.fig-portfolio-eighteen,
 .fig-portfolio-nineteen,
 .fig-portfolio-twenty-two,
 .fig-portfolio-twenty-three,
