@@ -99,28 +99,28 @@ $(document).ready(function() {
     }
   });
 })
-// When we refresh, page goes to the top
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-}
-// Remove URL when we refresh the page JS
-history.replaceState(null, null, ' ');
-// When the user scrolls the page, Scroll width ( progress ) Increase 
-window.addEventListener("scroll", event => {
-  let scrollTop = document.documentElement.scrollTop;
-  let scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  let progress = 100*scrollTop/scrollHeight;
-  document.querySelector(".display-progress").style.width = progress + "%";
-});
+// // When we refresh, page goes to the top
+// window.onbeforeunload = function () {
+//   window.scrollTo(0, 0);
+// }
+// // Remove URL when we refresh the page JS
+// history.replaceState(null, null, ' ');
+// // When the user scrolls the page, Scroll width ( progress ) Increase 
+// window.addEventListener("scroll", event => {
+//   let scrollTop = document.documentElement.scrollTop;
+//   let scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+//   let progress = 100*scrollTop/scrollHeight;
+//   document.querySelector(".display-progress").style.width = progress + "%";
+// });
 // Disbaled Right Click
-window.oncontextmenu = function () {
-  return false;
-}
-$(document).keydown(function (event) {
-  if (event.keyCode == 123) {
-    return false;
-  }
-  else if ((event.ctrlKey && event.shiftKey && event.keyCode == 73) || (event.ctrlKey && event.shiftKey && event.keyCode == 74)) {
-    return false;
-  }
-});
+// window.oncontextmenu = function () {
+//   return false;
+// }
+// $(document).keydown(function (event) {
+//   if (event.keyCode == 123) {
+//     return false;
+//   }
+//   else if ((event.ctrlKey && event.shiftKey && event.keyCode == 73) || (event.ctrlKey && event.shiftKey && event.keyCode == 74)) {
+//     return false;
+//   }
+// });
