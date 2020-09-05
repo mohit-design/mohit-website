@@ -12,6 +12,8 @@
 .section-heading > h2,
 .about-information > h2 { font-size: 2.7rem; }
 .about-information > p { text-align: justify; }
+.table-about-info { margin-bottom: 0; }
+.table-about-info-tab { margin-bottom: 30px; }
 .table-about-info > tbody > tr > td:first-child { width: 30%; }
 .table-about-info > tbody > tr > td:last-child { width: 70%; }
 .tools-info > h3 > span { display: inline-block; }
@@ -22,7 +24,8 @@
 
 	/*------- Services Section Starts -------*/
 
-.panel-flyer-service { margin-bottom: 30px; }
+.panel-invitation-card-service,
+.panel-letterhead-service { margin-bottom: 30px; }
 
 	/*------- Services Section Ends -------*/
 
@@ -37,7 +40,9 @@
 .fig-portfolio-twenty-seven,
 .fig-portfolio-twenty-eight,
 .fig-portfolio-twenty-nine,
-.fig-portfolio-thirty-four { margin-bottom: 30px; }
+.fig-portfolio-thirty-four,
+.fig-portfolio-thirty-seven,
+.fig-portfolio-thirty-nine { margin-bottom: 30px; }
 
 	/*------- Portfolio Section Ends -------*/
 
@@ -88,7 +93,8 @@
 
 	/*------- Services Section Starts -------*/
 
-.panel-flyer-service { margin-bottom: 30px; }
+.panel-invitation-card-service,
+.panel-letterhead-service { margin-bottom: 30px; }
 
 	/*------- Services Section Ends -------*/
 
@@ -103,7 +109,9 @@
 .fig-portfolio-twenty-seven,
 .fig-portfolio-twenty-eight,
 .fig-portfolio-twenty-nine,
-.fig-portfolio-thirty-four { margin-bottom: 30px; }
+.fig-portfolio-thirty-four,
+.fig-portfolio-thirty-seven,
+.fig-portfolio-thirty-nine { margin-bottom: 30px; }
 
 	/*------- Portfolio Section Ends -------*/
 
@@ -197,7 +205,7 @@ body.overflow-hidden { overflow-y: hidden; }
 	/*------- Services Section Starts -------*/
 
 .panel-services { margin-bottom: 15px; }
-.panel-letterhead-service { margin-bottom: 0; }
+.panel-brochure-service { margin-bottom: 0; }
 
 	/*------- Services Section Ends -------*/
 

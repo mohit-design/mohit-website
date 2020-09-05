@@ -1,9 +1,9 @@
 /*------- Font Family Starts -------*/
 
-@font-face { font-family: "Nunito-Light"; src: url("../fonts/Nunito-Light.ttf"); }
-@font-face { font-family: "Nunito-Regular"; src: url("../fonts/Nunito-Regular.ttf"); }
-@font-face { font-family: "Nunito-SemiBold"; src: url("../fonts/Nunito-SemiBold.ttf"); }
-@font-face { font-family: "Nunito-Bold"; src: url("../fonts/Nunito-Bold.ttf"); }
+@font-face { font-family: "Saira-Light"; src: url("../fonts/Saira-Light.otf"); }
+@font-face { font-family: "Saira-Regular"; src: url("../fonts/Saira-Regular.otf"); }
+@font-face { font-family: "Saira-Medium"; src: url("../fonts/Saira-Medium.otf"); }
+@font-face { font-family: "Saira-SemiBold"; src: url("../fonts/Saira-SemiBold.otf"); }
 
 /*------- Font Family Ends -------*/
 
@@ -28,11 +28,11 @@ a:focus { text-decoration: none; -webkit-transition: 0.5s linear; -moz-transitio
 
 /*------- Common CSS Starts -------*/
 
-.section-heading > h4 { border-bottom: 2px solid #ec9f31; color: #ec9f31; display: inline-block; font: 1.8rem/1.42857143 "Nunito-Regular"; margin-bottom: 5px; padding-bottom: 5px; text-transform: uppercase; }
-.section-heading > h2 { color: #fff; font: 3rem/1.42857143 "Nunito-Bold"; margin-bottom: 30px; text-transform: uppercase; }
-p { color: #fff; font: 1.8rem/1.42857143 "Nunito-Light"; }
+.section-heading > h4 { border-bottom: 2px solid #ec9f31; color: #ec9f31; display: inline-block; font: 1.8rem/1.42857143 "Saira-Regular"; margin-bottom: 5px; padding-bottom: 5px; text-transform: uppercase; }
+.section-heading > h2 { color: #fff; font: 3rem/1.42857143 "Saira-SemiBold"; margin-bottom: 30px; text-transform: uppercase; }
+p { color: #fff; font: 1.8rem/1.42857143 "Saira-Light"; }
 .img-auto { margin: 0 auto; }
-.btn { border: 0; font: 1.8rem/1.3333333 "Nunito-Light"; letter-spacing: 1px; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; }
+.btn { border: 0; font: 1.8rem/1.3333333 "Saira-Light"; letter-spacing: 1px; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; }
 .btn:hover,
 .btn:active:hover { color: #fff; }
 .btn:focus,
@@ -52,7 +52,7 @@ p { color: #fff; font: 1.8rem/1.42857143 "Nunito-Light"; }
 .sidebar-logo { padding: 25px; }
 .sidebar-menu { width: 200px; }
 .menu-listing > li { padding: 10px 25px 0; }
-.menu-listing > li > a { color: #fff; display: block; font: 1.8rem/1.42857143 "Nunito-Regular"; padding: 0 0 5px; position: relative; text-transform: uppercase; }
+.menu-listing > li > a { color: #fff; display: block; font: 1.8rem/1.42857143 "Saira-Regular"; padding: 0 0 5px; position: relative; text-transform: uppercase; }
 .menu-listing > li > a:after { background-color: #ec9f31; bottom: 0; content: ""; height: 2px; left: 0; position: absolute; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; width: 0; }
 .menu-listing > li > a:hover,
 .menu-listing > li.active > a { color: #ec9f31; }
@@ -76,7 +76,48 @@ p { color: #fff; font: 1.8rem/1.42857143 "Nunito-Light"; }
 
 .bg-banner { background: url("../images/banner.jpg") no-repeat fixed center/cover; height: 100vh; position: relative; }
 .name-designation-center { left: 50%; position: absolute; text-align: center; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 100%; }
-.name-designation-center > h1 { border-bottom: 2px solid #ec9f31; color: #ec9f31; display: inline-block; font: 6rem/1.42857143 "Nunito-Bold"; margin-bottom: 15px; text-align: center; }
+.name-designation-center > h1 { border-bottom: 2px solid #fff; color: #ec9f31; display: inline-block; font: 6rem/1.42857143 "Saira-SemiBold"; margin-bottom: 15px; position: relative; text-align: center; }
+.name-designation-center > h1::before {
+	-webkit-animation: animate 10s linear infinite;
+	-moz-animation: animate 10s linear infinite;
+	-ms-animation: animate 10s linear infinite;
+	-o-animation: animate 10s linear infinite;
+	animation: animate 10s linear infinite;
+	color: #fff;
+	content: attr(data-text);
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	white-space: nowrap;
+	width: 100%;
+}
+@-webkit-keyframes animate {
+	0% { width: 0; }
+	50% { width: 100%; }
+	100% { width: 0; }
+}
+@-moz-keyframes animate {
+	0% { width: 0; }
+	50% { width: 100%; }
+	100% { width: 0; }
+}
+@-ms-keyframes animate {
+	0% { width: 0; }
+	50% { width: 100%; }
+	100% { width: 0; }
+}
+@-o-keyframes animate {
+	0% { width: 0; }
+	50% { width: 100%; }
+	100% { width: 0; }
+}
+@keyframes animate {
+	0% { width: 0; }
+	50% { width: 100%; }
+	100% { width: 0; }
+}
 .name-designation-center > p { font-size: 2rem; letter-spacing: 2px; }
 
 	/*------- Banner Section Ends -------*/
@@ -85,17 +126,17 @@ p { color: #fff; font: 1.8rem/1.42857143 "Nunito-Light"; }
 
 .bg-about { padding: 30px 30px 0; }
 .img-person { border: 7px solid #222; -webkit-border-radius: 4%; -moz-border-radius: 4%; -ms-border-radius: 4%; -o-border-radius: 4%; border-radius: 4%; margin-bottom: 30px; width: 100%; }
-.about-information > h2 { color: #fff; font: 3rem/1.42857143 "Nunito-SemiBold"; margin-bottom: 30px; }
+.about-information > h2 { color: #fff; font: 3rem/1.42857143 "Saira-SemiBold"; margin-bottom: 30px; }
 .about-information > h2 > span { color: #ec9f31; }
 .about-information > p { line-height: 1.7; margin-bottom: 30px; }
 .about-information > p > span { color: #ec9f31; }
 .table-about-info { margin-bottom: 30px; }
 .table-about-info > tbody > tr > td { border-top: 0; padding: 8px 0; }
-.table-about-info > tbody > tr > td:first-child { color: #ec9f31; font: 1.8rem/1.42857143 "Nunito-Regular"; width: 50%; }
-.table-about-info > tbody > tr > td:last-child { color: #fff; font: 1.8rem/1.42857143 "Nunito-Light"; width: 50%; }
-.tools-info > h3 { color: #ec9f31; font: 2.4rem/1.42857143 "Nunito-SemiBold"; margin-bottom: 15px; }
+.table-about-info > tbody > tr > td:first-child { color: #ec9f31; font: 1.8rem/1.42857143 "Saira-Regular"; width: 50%; }
+.table-about-info > tbody > tr > td:last-child { color: #fff; font: 1.8rem/1.42857143 "Saira-Light"; width: 50%; }
+.tools-info > h3 { color: #ec9f31; font: 2.4rem/1.42857143 "Saira-Medium"; margin-bottom: 15px; }
 .tools-info > h3 > span { display: block; }
-.web-design-listing > li { color: #fff; font: 1.8rem/1.42857143 "Nunito-Light"; padding: 0 0 10px 25px; position: relative; }
+.web-design-listing > li { color: #fff; font: 1.8rem/1.42857143 "Saira-Light"; padding: 0 0 10px 25px; position: relative; }
 .web-design-listing > li:before { content: "\f192"; font-family: "Font Awesome 5 Free"; font-weight: 900; left: 0; position: absolute; top: 0; }
 .web-design-listing > li:last-child { padding-bottom: 0; }
 
@@ -108,13 +149,16 @@ p { color: #fff; font: 1.8rem/1.42857143 "Nunito-Light"; }
 .panel-logo-service,
 .panel-business-card-service,
 .panel-psd-xd-service,
-.panel-html-service,
+.panel-psd-to-html-service,
+.panel-xd-to-html-service,
+.panel-figma-to-html-service,
 .panel-social-media-service,
 .panel-restaurant-menu-service,
 .panel-cafe-menu-service,
 .panel-mobile-app-service,
-.panel-banner-service { margin-bottom: 30px; }
-.panel-services > h4 { color: #fff; font: 1.8rem/1.42857143 "Nunito-Regular"; text-align: center; }
+.panel-banner-service,
+.panel-flyer-service { margin-bottom: 30px; }
+.panel-services > h4 { color: #fff; font: 1.8rem/1.42857143 "Saira-Regular"; text-align: center; }
 
 	/*------- Services Section Ends -------*/
 
@@ -122,7 +166,7 @@ p { color: #fff; font: 1.8rem/1.42857143 "Nunito-Light"; }
 
 .bg-portfolio { padding: 30px 30px 0; }
 .portfolio-listing { display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; margin-bottom: 30px; }
-.portfolio-listing > li { background-color: #fff; -webkit-box-shadow: inset 0 -5px 0 0 #ec9f31; -moz-box-shadow: inset 0 -5px 0 0 #ec9f31; -ms-box-shadow: inset 0 -5px 0 0 #ec9f31; -o-box-shadow: inset 0 -5px 0 0 #ec9f31; box-shadow: inset 0 -5px 0 0 #ec9f31; color: #000; cursor: pointer; display: inline-block; font: 1.8rem/1.42857143 "Nunito-Regular"; margin-right: 15px; padding: 10px; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; }
+.portfolio-listing > li { background-color: #fff; -webkit-box-shadow: inset 0 -5px 0 0 #ec9f31; -moz-box-shadow: inset 0 -5px 0 0 #ec9f31; -ms-box-shadow: inset 0 -5px 0 0 #ec9f31; -o-box-shadow: inset 0 -5px 0 0 #ec9f31; box-shadow: inset 0 -5px 0 0 #ec9f31; color: #000; cursor: pointer; display: inline-block; font: 1.8rem/1.42857143 "Saira-Regular"; margin-right: 15px; padding: 10px; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; }
 .portfolio-listing > li:hover,
 .portfolio-listing > li.active { -webkit-box-shadow: inset 0 -45px 0 0 #ec9f31; -moz-box-shadow: inset 0 -45px 0 0 #ec9f31; -ms-box-shadow: inset 0 -45px 0 0 #ec9f31; -o-box-shadow: inset 0 -45px 0 0 #ec9f31; box-shadow: inset 0 -45px 0 0 #ec9f31; }
 .hide-portfolio { display: none; }
@@ -151,7 +195,7 @@ p { color: #fff; font: 1.8rem/1.42857143 "Nunito-Light"; }
 .fig-portfolio-forty-one { margin-bottom: 30px; }
 .img-portfolio { -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; width: 100%; }
 .project-info { background: #222222; bottom: 0; padding: 10px; position: absolute; -webkit-transform: translateY(100%); -moz-transform: translateY(100%); -ms-transform: translateY(100%); -o-transform: translateY(100%); transform: translateY(100%); -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; width: 100%; }
-.project-info > h3 { color: #ec9f31; font: 2.4rem/1.42857143 "Nunito-SemiBold"; margin-bottom: 5px; }
+.project-info > h3 { color: #ec9f31; font: 2.4rem/1.42857143 "Saira-SemiBold"; margin-bottom: 5px; }
 .project-info > p,
 .project-info > p > a { color: #fff; margin-bottom: 0; }
 .fig-portfolio:hover .project-info { -webkit-transform: translateY(0%); -moz-transform: translateY(0%); -ms-transform: translateY(0%); -o-transform: translateY(0%); transform: translateY(0%); }
@@ -167,7 +211,7 @@ p { color: #fff; font: 1.8rem/1.42857143 "Nunito-Light"; }
 .panel-card-pricing,
 .panel-web-pricing { margin-bottom: 30px; }
 .img-pricing { margin-bottom: 30px; }
-.panel-pricing > h3 { color: #ec9f31; font: 2.4rem/1.42857143 "Nunito-SemiBold"; margin-bottom: 30px; text-align: center; text-transform: uppercase; }
+.panel-pricing > h3 { color: #ec9f31; font: 2.4rem/1.42857143 "Saira-SemiBold"; margin-bottom: 30px; text-align: center; text-transform: uppercase; }
 .panel-pricing > h3 > span { display: block; }
 .design-description > p { margin-bottom: 15px; text-align: center; }
 .design-description > p:last-child { margin-bottom: 0; }
